@@ -1,6 +1,8 @@
 node-odbc
 ---------
 
+> It's "patched" fork of the library, created for https://github.com/vedidev/sails-pervasive.
+
 An asynchronous/synchronous interface for node.js to unixODBC and its supported
 drivers.
 
