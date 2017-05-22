@@ -13,9 +13,10 @@
       'include_dirs': [
         "<!(node -e \"require('nan')\")"
       ],
-      'defines' : [
-        'UNICODE'
-      ],
+#      We had issue if UNICODE is set. It just sometimes crashed...
+#      'defines' : [
+#        'UNICODE'
+#      ],
       'conditions' : [
         [ 'OS == "linux"', {
           'libraries' : [ 
